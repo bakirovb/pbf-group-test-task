@@ -1,0 +1,15 @@
+{
+  "name": "fibonacci",
+  "version": "0.0.0",
+  "main": "main.js",
+  "private": true,
+  "gypfile": true,
+  "type": "module",
+  "dependencies": {
+    "bindings": "~1.5.0",
+    "nan": "^2.14.0"
+  },
+  "scripts": {
+    "start": "node src/main.js"
+  }
+}
